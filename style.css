@@ -11,7 +11,8 @@ header{
 
 header div {
 	width: 1000px;
-	margin-left: 10%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1{
@@ -26,7 +27,8 @@ h2{
 main{
 	width: 1000px;
 	background-color: #0c3248;
-	margin-left: 10%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 10px;
 	
 }
@@ -53,8 +55,13 @@ footer{
 	color: #fff;
 	background-color: #004b77;
 	padding: 20px;
-	padding-left: 10%;
-	margin: 15px;
+	margin: 15px 0px 0px 0px;
+}
+
+.foot{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 dt{
@@ -111,10 +118,6 @@ time{
 	background-color: #0066C7;
 }
 
-.nav-fish:hover{
-	color: rgba(255,255,255,0.53);
-}
-
 .map{
 	width: 300px;
 	margin: 40px 40px 0px 0px;
@@ -123,7 +126,6 @@ time{
 .text-main{
 	color: #fff;
 	font-size: 18px;
-	font-family: Bata;
 	margin: -5px 50px;
 	text-align: left;
 	position: absolute;
