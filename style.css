@@ -160,6 +160,10 @@ time{
     margin: auto;
 }
 
+.popular-products{
+    padding-left: 60px
+}
+
 .products-list {
   width: 500px;
   display: flex;
@@ -185,8 +189,7 @@ time{
 }
 
 .product-card h3 {
-  margin: 0 0 2px 0;
-  padding: 0;
+  margin: 0 0 3px 0;
   font-size: 15px;
   line-height: 18px;
   font-weight: 400;
@@ -201,7 +204,6 @@ time{
 }
 
 .product-card .price {
-  margin-top: auto;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 15px;
